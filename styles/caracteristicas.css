@@ -1,0 +1,29 @@
+body {
+    background-color: #10141A;
+    padding: 0%;
+    margin: 0%;
+}
+
+.tarea-sidebar {
+    padding: 20vh 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.articule-tarea {
+    background-color: #283241;
+    padding: 5%;
+    width: 100%;
+    border: #a19fa4 solid 1px;
+    text-align: center;
+    color: rgb(236, 236, 236);
+}
+
+hr { 
+    border-color: #a19fa4;
+}
+
+li {
+    text-align: left;
+}

@@ -1,0 +1,99 @@
+body {
+    background-color: #10141A;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+
+nav {
+    z-index: 2;
+    position: fixed;
+    width: 98%;
+    height: 9vh;
+    background-color: #222A35;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 12px black;
+    opacity: .93;
+    padding: 0 1vw
+}
+
+.titulo-nav {
+    color: aliceblue;
+}
+
+.img-logo {
+    height: 80%;
+}
+
+.btn-agregar-tarea {
+    height: 50%;
+    border-radius: 10px;
+    background-color: #222A35;
+    border-color: #78E888;
+    color: #78E888;
+}
+
+.btn-agregar-tarea:hover {
+    color: white;
+    background-color: #5ab668;
+}
+
+/* Tarjetas de tareas */
+
+.seccion-tarjetas-actividades {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    padding-top: 20vh;
+}
+
+.tarjeta-actividades {
+    background-color: #283241;
+    height: 50vh;
+    width: 25%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 12px black;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+
+.tarjeta-actividades:hover {
+    scale: 1.02;
+    box-shadow: 0 0 10px rgb(175, 175, 175)
+}
+
+h2 {
+    color:rgb(175, 175, 175);
+
+}
+
+.pila-de-libros{
+    height: 30%;
+}
+
+
+.descripcion-tarea{
+    color:rgb(149, 149, 149)
+}
+
+@media (max-width: 1100px) {
+    .tarjeta-actividades {
+        width: 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    .tarjeta-actividades {
+        width: 80%;
+    }
+    
+    .seccion-tarjetas-actividades {
+        justify-content: center;
+    }
+}

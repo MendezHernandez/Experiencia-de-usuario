@@ -1,0 +1,79 @@
+nav {
+    z-index: 2;
+    position: fixed;
+    width: 98%;
+    height: 9vh;
+    background-color: #222A35;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 12px black;
+    opacity: .93;
+    padding: 0 1vw
+}
+
+.titulo-nav {
+    color: aliceblue;
+}
+
+.img-logo {
+    height: 80%;
+    margin-right: 1vw;
+}
+
+.contenedor-btn-nav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-agregar-tarea {
+    height: 50%;
+    border-radius: 10px;
+    background-color: #222A35;
+    border-color: #78E888;
+    color: #78E888;
+    margin-right: .5vw;
+}
+
+.btn-agregar-tarea:hover {
+    color: white;
+    background-color: #5ab668;
+}
+
+.btn-eliminar-tarea {
+    height: 50%;
+    border-radius: 10px;
+    background-color: #222A35;
+    border-color: #F0564A;
+    color: #F0564A;
+}
+
+.btn-eliminar-tarea:hover {
+    color: white;
+    background-color: #dc4c42;
+}
+
+.a-inicio {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 1vw;
+
+}
+
+.btn-volver-inicio {
+    height: 50%;
+    border-radius: 10px;
+    background-color: #222A35;
+    border-color: #4f4af0;
+    color: #645ff6;
+}
+
+.btn-volver-inicio:hover {
+    color: white;
+    background-color: #645ff6;
+}
