@@ -9,9 +9,11 @@
     <title>Document</title>
 </head>
 <body>
+
     <?php 
         include '../Components/navbar.php'
     ?>
+    
     <section class="tarea-sidebar">
         <article class="articule-tarea">
             <h2>Carreras UX</h1>

@@ -37,7 +37,6 @@
                     <h3>Útil</h3>
                     <p>Si un producto es útil, significa que resuelve los problemas del usuario. En otras palabras, el diseño resuelve intencionalmente un problema del usuario que el diseñador ha identificado. Es importante tener en cuenta que, aunque están relacionados, los conceptos «útil» y «fácil de usar» tienen significados diferentes. Un producto útil no siempre es fácil de usar, ni viceversa.
                     La distinción entre ambos es que «fácil de usar» se refiere a que el producto funciona bien y es simple de usar, mientras que «útil» se refiere específicamente a la capacidad de resolver los problemas del usuario. A la hora de evaluar qué tan útil es la UX de un producto, podrías hacerte preguntas como estas: ¿El diseño añade valor a la experiencia del usuario? ¿Soluciona el diseño un problema del usuario? ¿El diseño ayuda al usuario a alcanzar un objetivo específico? Estas preguntas pueden ayudarte a determinar si el diseño ofrece una experiencia útil. 
-
                     </p>
                 </li>
             </ol>
